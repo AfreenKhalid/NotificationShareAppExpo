@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "NotificationShareAppExpo",
+    "displayName": "NotificationShareAppExpo",
+    "slug": "NotificationShareAppExpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "devClient": {
+      "development": true
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.NotificationShareAppExpo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4e89949-1cf2-4f5f-a986-0cebf4f83f9e"
+      }
+    },
+    "owner": "afreenk"
+  }
+}
